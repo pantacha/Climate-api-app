@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
+# Vite + React + TypeScript Application with an API Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a web application built using **Vite** and **React** with **TypeScript**. The global state of the application is managed using **Zustand**, and styles are applied using **TailwindCSS**, and it consumes data from an external API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+You can check the live version of the project deployed on Netlify at the following link:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Live Demo on Netlify](https://idyllic-narwhal-4152fe.netlify.app)
 
-- Configure the top-level `parserOptions` property like this:
+## Main Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Vite**: Fast and modern build tool.
+- **React**: UI library for building component-based user interfaces.
+- **TypeScript**: Type-safe development with static typing.
+- **API Integration**: The app interacts with an external API to retrieve and display dynamic data.
+- **CSS Modules**: Scoped and modular CSS for component-level styles.
+
+## Prerequisites
+
+- Node.js v14 or higher
+- npm or yarn (whichever you prefer)
+
+## Installation
+
+### Step 1: Clone the repository and navigate to the project directory:
+
+Clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/pantacha/Climate-api-app.git
+cd Climate-api-app
+```
+### Step 2: Install the project dependencies:
+
+```
+npm install
+# or
+yarn install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Available Scripts
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Run the application, available in the ***package.json*** file:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+#### `npm run dev`
+
+Runs the application in ***development mode***. Open http://localhost:3000 (or whichever port) to view it in your browser.

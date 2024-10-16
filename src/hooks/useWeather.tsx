@@ -1,7 +1,7 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import axios from 'axios';
 import { z } from "zod";
-import { Country, FormElements } from '../types';
+import { FormElements } from '../types';
 
 // ZOD --SCHEMA--
 const Weather = z.object({

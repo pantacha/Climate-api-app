@@ -1,7 +1,7 @@
-import React, { ChangeEvent, FormEvent, useState } from 'react'
+import { ChangeEvent, FormEvent, useState } from 'react'
 import { countries } from '../../data/countries'
 import styles from './Form.module.css'
-import { Country, FormElements } from '../../types'
+import { FormElements } from '../../types'
 import { MessageError } from '../Messages/MessageError'
 
 type Props = {
