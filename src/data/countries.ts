@@ -13,4 +13,5 @@ export const countries: Country[] = [
     { code: 'LS', name: 'Lesotho' },
     { code: 'TT', name: 'Trinity & Tobago' },
     { code: 'TK', name: 'Tokelau Islands' },
+    { code: 'GB', name: 'England' },
   ]
