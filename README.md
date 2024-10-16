@@ -8,7 +8,7 @@ This is a web application built using **Vite** and **React** with **TypeScript**
 
 You can check the live version of the project deployed on Netlify at the following link:
 
-[Live Demo on Netlify](https://idyllic-narwhal-4152fe.netlify.app)
+[Live Demo on Netlify]()
 
 ## Main Features
 

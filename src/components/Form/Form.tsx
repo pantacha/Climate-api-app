@@ -61,7 +61,7 @@ export const Form = ({getCurrentWeather}: Props) => {
                     }
             </select>
         </div>
-        <input className={styles.submit} type="submit" value={'Consult th eClimate pinche wueyyy..'} />
+        <input className={styles.submit} type="submit" value={'Consult the Climate..'} />
     </form>
   )
 
