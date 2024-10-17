@@ -40,6 +40,9 @@ npm install
 # or
 yarn install
 ```
+### Step 3: Clone the .env.template to .env.local and configure the environment variables:
+
+After cloning the file, open .env.local and configure the environment variables according to your local setup.
 
 ## Available Scripts
 
